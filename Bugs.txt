@@ -1,0 +1,176 @@
+Bugs reports
+=====================================================================================================================================================================
+
+ID		        1				
+Project		        test_project				
+Summary		        При вводе данных форма не переходит на следующий этап				
+Priority		Blocker				
+Bug severity		High				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; 
+                        Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+1.ввести данные в поле Name: Katarina						
+2.ввести данные в поле Surname: Terekhina						
+3. ввести данные в поле Email: test@ts.ru						
+4. ввести данные в поле Password: vF56G						
+5. нажать кнопку Submit						
+Expected result						
+Форма переправит нас на страницу пользователя						
+Actual result						
+Форма выдала данные об успешно проведенной операции, но не перешла на страницу пользователя						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
+====================================================================================================================================================================						
+ID		        2				
+Project		        test_project				
+Summary		        Отсутствуют правила для пароля				
+Priority		Critical				
+Bug severity		High				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; 
+                        Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+1.нажать на поле ввода пароля						
+2. проверить отсутсвие правила ввода в всплывающем ballon						
+Expected result						
+При наведении/нажатии на поле пароль появляется Ballon с правилами для ввода пароля						
+Actual result						
+Правила по составлению пароля отсутствуют						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
+===================================================================================================================================================================						
+ID		        3				
+Project		        test_project				
+Summary		        Не указаны обязательные поля для заполнения				
+Priority		Critical				
+Bug severity		High				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; 
+                        Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+Пользователю не понятно какие поля нужно заполнить.						
+Expected result						
+Указаны обязательные поля для заполнения формы						
+Actual result						
+Нет обозначения обязательных полей						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
+===================================================================================================================================================================						
+ID		        4				
+Project		        test_project				
+Summary		        Недостаточно информации о форме пользователя				
+Priority		Critical				
+Bug severity		High				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; 
+                        Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+Пользователь не понимает для каких целей форма, возможно форма регистрации или форма логина.						
+Expected result						
+Пользователь понимает для чего нужна данная форма						
+Actual result						
+Форма без обозначения назначения						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
+==================================================================================================================================================================						
+ID		        5				
+Project		        test_project				
+Summary		        В плесхолдерах излишне указаны пунктуационные знаки				
+Priority		Normal				
+Bug severity		Low				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; 
+                        Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+В плейсхолдерах формы излишне указаны пунктационные знаки.						
+Expected result						
+Отсутствует излишняя пунктуация						
+Actual result						
+В плейсхолдерах формы излишне указаны пунктационные знаки.						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
+==================================================================================================================================================================						
+ID		        6				
+Project		        test_project				
+Summary		        Ошибка в названии поля Surname				
+Priority		Normal				
+Bug severity		Medium				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; 
+                        Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+В названии поля Surname пропущена буква: Surame.						
+Expected result						
+Название поля указано верно						
+Actual result						
+Допущена ошибка в названии поля						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
+==================================================================================================================================================================						
+ID		        7				
+Project		        test_project				
+Summary		        Название кнопки смещено вправо				
+Priority		Major				
+Bug severity		Medium				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; 
+                        Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+Название кнопки смещено влево						
+Expected result						
+Название кнопки расположено по середине 						
+Actual result						
+Название смещено						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
+==================================================================================================================================================================						
+ID		        8				
+Project		        test_project				
+Summary		        при введении данных в обязательные поля появляется ошибка, что все поля нужно заполнить				
+Priority		Major				
+Bug severity		Medium				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; 
+                        Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+1.ввести данные в поле Name: Katarina						
+2. оставить поле пустым						
+3. ввести данные в поле Email: test@ts.ru						
+4. ввести данные в поле Password: vF56G						
+5. нажать кнопку Submit						
+Expected result						
+Форма примет введенные данные, появится сообщение об успешном дествии						
+Actual result						
+Появляется ошибка что нужно заполнить все поля формы						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
+================================================================================================================================================================						
+ID		        9				
+Project		        test_project				
+Summary		        При введении некорректных данных форма показывает успешное принятие				
+Priority		Blocker				
+Bug severity		High				
+Окружение		ОС: Windows 10, Браузер: Opera, версия: 72.0.3815.378; Microsoft Edge версия: 87.0.664.47; Firefox: версия 83.0; Google Chrome версия: 87.0.4280.66; Яндекс. Браузер версия 20.11.2.78.				
+Precondition						
+Зайти на сайт: http://itcareer.pythonanywhere.com						
+Step to reproduce						
+1.ввести данные в поле Name: 123456789						
+2. ввести данные в поле Surname: 123456789						
+3. ввести данные в поле Email: 123456789						
+4. ввести данные в поле Password: 123456789						
+5. нажать кнопку Submit						
+Expected result						
+Форма выдаст ошибку о введении некорректных данных						
+Actual result						
+Форма принимает введенные данные.						
+Assignee			Vadim Kzendzov			
+Reporter			Katerina Terekhina			
